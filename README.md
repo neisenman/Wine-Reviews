@@ -8,13 +8,21 @@ I ended up implimenting two different types of models, a linear and multivariate
 
 Linear Models: 
 Red Wine
+
     • Alcohol: 0.792
+    
     • Volatile Acidity: 0.868
+    
     • Density: 0.944
+    
 White Wine
+
     • Sulfates: .84
+    
     • Alcohol .89
+    
     • Volatile_acidity: 0.77
+   
       
 Analysis
 The linear models were moderately effective in predicting a wine's quality. Citric acid was the strongest predictor of any feature. Given my results, I made multivariate models with the strongest predictors in the single-dimensional linear case. I got the following results:
